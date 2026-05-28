@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mudassar's Website</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Go to top" data-i18n="brand">Mudassar's Website</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#skills" data-i18n="navSkills">Skills</a>
+      <a href="#hobbies" data-i18n="navHobbies">Hobbies</a>
+      <a href="#experience" data-i18n="navExperience">Experience</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <div class="language-switcher" aria-label="Choose language">
+        <button class="language-button active" type="button" data-lang="en">EN</button>
+        <button class="language-button" type="button" data-lang="de">DE</button>
+        <button class="language-button" type="button" data-lang="ur">UR</button>
+      </div>
+      <button class="theme-toggle" type="button" aria-label="Switch color theme">
+        <span class="theme-icon" aria-hidden="true">D</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="heroEyebrow">CV / Personal Website</p>
+        <h1 data-i18n="heroTitle">Hi, I'm Muhammad Mudassar Hussain.</h1>
+        <p class="hero-text" data-i18n="heroText">
+          I am a student from Neuwied, Germany who enjoys coding, learning new things, and building creative projects for the web.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact" data-i18n="contactMe">Contact Me</a>
+          <a class="button secondary" href="#experience" data-i18n="viewCv">View CV</a>
+        </div>
+      </div>
+
+      <aside class="profile-panel" aria-label="Profile summary">
+        <div class="avatar" aria-hidden="true">MH</div>
+        <h2>Muhammad Mudassar Hussain</h2>
+        <p data-i18n="profileSubtitle">Student / Developer / Creative Builder</p>
+        <dl>
+          <div>
+            <dt data-i18n="ageLabel">Age</dt>
+            <dd data-live-age-line><span id="live-age">14</span> years old</dd>
+          </div>
+          <div>
+            <dt data-i18n="birthdayLabel">Birthday</dt>
+            <dd data-i18n="birthdayValue">11 December 2011</dd>
+          </div>
+          <div>
+            <dt data-i18n="locationLabel">Location</dt>
+            <dd data-i18n="locationValue">Neuwied, Germany</dd>
+          </div>
+          <div>
+            <dt data-i18n="gradeLabel">Grade</dt>
+            <dd data-live-grade-line>Grade <span id="live-grade">8</span></dd>
+          </div>
+          <div>
+            <dt data-i18n="statusLabel">Status</dt>
+            <dd data-i18n="statusValue">Learning and improving</dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="aboutEyebrow">About Me</p>
+        <h2 data-i18n="aboutTitle">A quick introduction</h2>
+      </div>
+      <p class="wide-text" data-about-text>
+        My name is Muhammad Mudassar Hussain. I am <span id="about-age">14</span> years old. I was born in a little village in Pakistan, and now I live in Neuwied, Germany. I am currently in grade <span id="about-grade">8</span> at Werner Weisenberg Gymnasium. I like technology, sports, and creative work. I am learning to build websites and projects with code, and I want my portfolio to show my progress clearly and professionally.
+      </p>
+    </section>
+
+    <section class="section split-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="skillsEyebrow">Skills</p>
+        <h2 data-i18n="skillsTitle">What I can work with</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span>01</span>
+          <h3 data-i18n="frontendTitle">Frontend</h3>
+          <p data-i18n="frontendText">HTML, CSS, JavaScript, responsive layouts, clean UI design.</p>
+        </article>
+        <article class="skill-card">
+          <span>02</span>
+          <h3 data-i18n="programmingTitle">Programming</h3>
+          <p data-i18n="programmingText">Python, C++, JavaScript, problem solving, and building small projects.</p>
+        </article>
+        <article class="skill-card">
+          <span>03</span>
+          <h3 data-i18n="strengthsTitle">Strengths</h3>
+          <p data-i18n="strengthsText">Fast learner, consistent, creative thinking, teamwork.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="hobbies">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="hobbiesEyebrow">Hobbies</p>
+        <h2 data-i18n="hobbiesTitle">What I enjoy</h2>
+      </div>
+      <div class="hobby-grid">
+        <article class="hobby-card">
+          <div class="hobby-art soccer-art" aria-hidden="true">
+            <span></span>
+          </div>
+          <h3 data-i18n="soccerTitle">Soccer</h3>
+          <p data-i18n="soccerText">I like playing soccer because it is fast, active, and needs teamwork.</p>
+        </article>
+        <article class="hobby-card">
+          <div class="hobby-art boxing-art" aria-hidden="true">
+            <span></span>
+          </div>
+          <h3 data-i18n="boxingTitle">Boxing</h3>
+          <p data-i18n="boxingText">Boxing helps me stay disciplined, focused, and physically strong.</p>
+        </article>
+        <article class="hobby-card">
+          <div class="hobby-art minecraft-art" aria-hidden="true">
+            <span></span>
+          </div>
+          <h3 data-i18n="minecraftTitle">Minecraft</h3>
+          <p data-i18n="minecraftText">Sometimes I play Minecraft because I enjoy building and being creative.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="cvEyebrow">CV</p>
+        <h2 data-i18n="cvTitle">Education & experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-date" data-i18n="nowLabel">Now</span>
+          <div>
+            <h3>Werner Weisenberg Gymnasium Neuwied</h3>
+            <p data-timeline-grade-line>Currently in grade <span id="timeline-grade">8</span>, learning school subjects and improving my coding skills.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-date">2025</span>
+          <div>
+            <h3 data-i18n="webPracticeTitle">Web development practice</h3>
+            <p data-i18n="webPracticeText">Built and improved websites using HTML, CSS, and JavaScript.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-date">2024</span>
+          <div>
+            <h3 data-i18n="pythonTitle">Python learning</h3>
+            <p data-i18n="pythonText">Started learning programming concepts and writing code with Python.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div>
+        <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+        <h2 data-i18n="contactTitle">Let's talk.</h2>
+        <p data-i18n="contactText">You can contact me by email for school, coding, projects, or opportunities.</p>
+      </div>
+      <div class="contact-links">
+        <a class="button primary email-button" href="mailto:mudassar.hussain.muh@gmail.com">mudassar.hussain.muh@gmail.com</a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p data-footer-line>Copyright <span id="current-year">2026</span> Muhammad Mudassar Hussain. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
