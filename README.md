@@ -6,15 +6,15 @@ About:
 This is my personal website hosted with GitHub Pages.
 
 Features:
-Fast and simple
-Free hosting
-Responsive design
-Custom styling
-Technologies
-HTML
-CSS
-JavaScript
-Live Website
+Fast and simple, 
+Free hosting, 
+Responsive design, 
+Custom styling, 
+Technologies, 
+HTML, 
+CSS, 
+JavaScript, 
+Live Website, 
 
 Author:
 Mudassar
