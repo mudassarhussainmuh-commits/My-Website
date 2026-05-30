@@ -15,6 +15,11 @@ HTML,
 CSS, 
 JavaScript, 
 Live Website, 
+Games,
+My CV (My personal Infos),
+and more...
+
+Visit it on: https://mudassarwebsite.mudassar-hussain-muh.workers.dev/
 
 Author:
 Mudassar
