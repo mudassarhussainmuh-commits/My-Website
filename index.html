@@ -13,6 +13,7 @@
       <a href="#about" data-i18n="navAbout">About</a>
       <a href="#skills" data-i18n="navSkills">Skills</a>
       <a href="#hobbies" data-i18n="navHobbies">Hobbies</a>
+      <a href="#games" data-i18n="navGames">Games</a>
       <a href="#experience" data-i18n="navExperience">Experience</a>
       <a href="#contact" data-i18n="navContact">Contact</a>
     </nav>
@@ -132,6 +133,61 @@
           <h3 data-i18n="minecraftTitle">Minecraft</h3>
           <p data-i18n="minecraftText">Sometimes I play Minecraft because I enjoy building and being creative.</p>
         </article>
+      </div>
+    </section>
+
+    <section class="section games-section" id="games">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="gamesEyebrow">Games</p>
+        <h2 data-i18n="gamesTitle">Play games made by me</h2>
+      </div>
+      <div class="game-shell">
+        <div class="game-menu" aria-label="Choose a game">
+          <button class="game-tab active" type="button" data-game="plane">
+            <span data-i18n="planeGameTitle">Sky Defender</span>
+            <small data-i18n="planeGameText">Shoot enemies and protect your plane.</small>
+          </button>
+          <button class="game-tab" type="button" data-game="dash">
+            <span data-i18n="dashGameTitle">Geometry Rush</span>
+            <small data-i18n="dashGameText">Jump over spikes and survive the track.</small>
+          </button>
+          <button class="game-tab" type="button" data-game="snake">
+            <span data-i18n="snakeGameTitle">Neon Snake</span>
+            <small data-i18n="snakeGameText">Collect gems without hitting yourself.</small>
+          </button>
+          <button class="game-tab" type="button" data-game="pong">
+            <span data-i18n="pongGameTitle">Paddle Clash</span>
+            <small data-i18n="pongGameText">Beat the smart paddle to seven points.</small>
+          </button>
+          <button class="game-tab" type="button" data-game="memory">
+            <span data-i18n="memoryGameTitle">Code Memory</span>
+            <small data-i18n="memoryGameText">Match every symbol with clean focus.</small>
+          </button>
+          <button class="game-tab featured-game-tab" type="button" data-game="subway">
+            <span data-i18n="subwayGameTitle">Metro Rush 3D</span>
+            <small data-i18n="subwayGameText">Dodge trains, jump barriers, and grab neon coins.</small>
+          </button>
+        </div>
+
+        <div class="game-stage">
+          <div class="game-head">
+            <div>
+              <p class="eyebrow" data-game-kicker data-i18n="gameKickerPlane">Shooter</p>
+              <h3 id="game-title">Sky Defender</h3>
+            </div>
+            <div class="game-stats" aria-label="Game stats">
+              <span><strong id="game-score">0</strong> <span data-i18n="gameScoreLabel">Score</span></span>
+              <span><strong id="game-best">0</strong> <span data-i18n="gameBestLabel">Best</span></span>
+            </div>
+          </div>
+          <canvas id="game-canvas" width="900" height="520" aria-label="Playable game canvas"></canvas>
+          <div class="game-controls">
+            <button class="button primary" type="button" id="game-start" data-i18n="gameStart">Start</button>
+            <button class="button secondary" type="button" id="game-reset" data-i18n="gameReset">Reset</button>
+            <button class="button secondary fullscreen-button" type="button" id="game-fullscreen" data-i18n="gameFullscreen">Fullscreen</button>
+            <p id="game-help" data-i18n="planeGameHelp">Move with W/A/S/D or arrows. Press Space to shoot.</p>
+          </div>
+        </div>
       </div>
     </section>
 
